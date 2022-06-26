@@ -52,6 +52,19 @@ const pigLatin = (word) => {
     }
     else return "That is not an English word."
 }
+// The input makes it seem like this program is only supposed to work
+// for single words, not full sentences. If it was to be used on 
+// full sentences, I would start it differently but leave it mostly
+// unchanged:
+
+// const pigLatin = (sentence) => {
+//  let arrayOfWords = sentence.split(" ");
+// for (let word of arrayOfWords) {
+//      (already existing code)
+
+// I tried this, it did not loop over the array. Do I need to define
+// more functions, instead of calling it all in the same function?
+
 
 // the first function called in the program to get an input from the user
 // to run the function use the command: node main.js
